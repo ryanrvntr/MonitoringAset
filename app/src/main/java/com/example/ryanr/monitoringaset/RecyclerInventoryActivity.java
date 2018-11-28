@@ -30,16 +30,16 @@ public class RecyclerInventoryActivity extends AppCompatActivity {
     }
 
     private void dummyData() {
-        InventoryModel inventoryModel = new InventoryModel("Wowo", "12 september", R.drawable.ic_launcher_foreground);
+        InventoryModel inventoryModel = new InventoryModel("inven1","merk1","1","lusin","ruang1","ket 1","jenis 1","R.drawable.ic_launcher_background","1 1 2001");
         mInventoryModels.add(inventoryModel);
 
-        inventoryModel = new InventoryModel("Wiwi", "13 september", R.drawable.ic_launcher_foreground);
+        inventoryModel = new InventoryModel("inven2","merk2","2","lusin","ruang2","ket 2","jenis 2","R.drawable.ic_launcher_background","2 2 2002");
         mInventoryModels.add(inventoryModel);
 
-        inventoryModel = new InventoryModel("Wuwu", "14 september", R.drawable.ic_launcher_foreground);
+        inventoryModel = new InventoryModel("inven3","merk3","3","lusin","ruang3","ket 3","jenis 3","R.drawable.ic_launcher_background","3 3 2003");
         mInventoryModels.add(inventoryModel);
 
-        inventoryModel = new InventoryModel("Wewe", "15 september", R.drawable.ic_launcher_foreground);
+        inventoryModel = new InventoryModel("inven4","merk4","4","lusin","ruang4","ket 4","jenis 4","R.drawable.ic_launcher_background","4 4 2004");
         mInventoryModels.add(inventoryModel);
     }
 }

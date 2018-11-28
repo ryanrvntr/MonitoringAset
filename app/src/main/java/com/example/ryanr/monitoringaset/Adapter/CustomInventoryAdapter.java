@@ -37,9 +37,9 @@ public class CustomInventoryAdapter extends RecyclerView.Adapter<CustomInventory
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         InventoryModel inventoryModel = mInventoryModel.get(position);
-        holder.tvInven.setText(inventoryModel.getInvenName());
-        holder.tvDate.setText(inventoryModel.getDate());
-        Glide.with(mContext).load(inventoryModel.getImageId()).into(holder.ivInven);
+        holder.tvInven.setText(inventoryModel.getNama());
+        holder.tvDate.setText(inventoryModel.getTanggal());
+        Glide.with(mContext).load(inventoryModel.getGambar()).into(holder.ivInven);
     }
 
     @Override
