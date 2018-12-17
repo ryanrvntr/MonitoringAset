@@ -1,16 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#f3dfc4"
+    android:orientation="vertical"
     tools:context=".RecyclerInventoryActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="90pt"
+        android:background="@mipmap/ic_launcher">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90pt"
+            android:layout_gravity="center"
+            android:background="#ca000000"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Properti"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="daftar properti"
+                android:textColor="@color/white"
+                android:textSize="11dp" />
+        </LinearLayout>
+
+    </FrameLayout>
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rvProperty"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:padding="15dp">
 
     </android.support.v7.widget.RecyclerView>
-
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
