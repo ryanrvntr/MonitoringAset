@@ -7,7 +7,7 @@
     android:background="#f3dfc4"
     tools:context=".RecyclerInventoryActivity">
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/rvInventory"
+        android:id="@+id/rvProperty"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 

@@ -1,68 +1,57 @@
 package com.example.ryanr.monitoringaset.Model;
 
 public class PropertyModel {
-    String nama,alamat,kecamatan,kabupaten,profinsi,kodePos,gambar,keterangan;
+    String id_properti, luas, harga, keterangan, no_sertifikat, lokasi, gambar, tanggal;
 
     public PropertyModel() {
     }
 
-    public PropertyModel(String nama, String alamat, String kecamatan, String kabupaten, String profinsi, String kodePos, String gambar, String keterangan) {
-        this.nama = nama;
-        this.alamat = alamat;
-        this.kecamatan = kecamatan;
-        this.kabupaten = kabupaten;
-        this.profinsi = profinsi;
-        this.kodePos = kodePos;
-        this.gambar = gambar;
+    public String getId_properti() {
+        return id_properti;
+    }
+
+    public void setId_properti(String id_properti) {
+        this.id_properti = id_properti;
+    }
+
+    public String getLuas() {
+        return luas;
+    }
+
+    public void setLuas(String luas) {
+        this.luas = luas;
+    }
+
+    public String getHarga() {
+        return harga;
+    }
+
+    public void setHarga(String harga) {
+        this.harga = harga;
+    }
+
+    public String getKeterangan() {
+        return keterangan;
+    }
+
+    public void setKeterangan(String keterangan) {
         this.keterangan = keterangan;
     }
 
-    public String getNama() {
-        return nama;
+    public String getNo_sertifikat() {
+        return no_sertifikat;
     }
 
-    public void setNama(String nama) {
-        this.nama = nama;
+    public void setNo_sertifikat(String no_sertifikat) {
+        this.no_sertifikat = no_sertifikat;
     }
 
-    public String getAlamat() {
-        return alamat;
+    public String getLokasi() {
+        return lokasi;
     }
 
-    public void setAlamat(String alamat) {
-        this.alamat = alamat;
-    }
-
-    public String getKecamatan() {
-        return kecamatan;
-    }
-
-    public void setKecamatan(String kecamatan) {
-        this.kecamatan = kecamatan;
-    }
-
-    public String getKabupaten() {
-        return kabupaten;
-    }
-
-    public void setKabupaten(String kabupaten) {
-        this.kabupaten = kabupaten;
-    }
-
-    public String getProfinsi() {
-        return profinsi;
-    }
-
-    public void setProfinsi(String profinsi) {
-        this.profinsi = profinsi;
-    }
-
-    public String getKodePos() {
-        return kodePos;
-    }
-
-    public void setKodePos(String kodePos) {
-        this.kodePos = kodePos;
+    public void setLokasi(String lokasi) {
+        this.lokasi = lokasi;
     }
 
     public String getGambar() {
@@ -73,11 +62,11 @@ public class PropertyModel {
         this.gambar = gambar;
     }
 
-    public String getKeterangan() {
-        return keterangan;
+    public String getTanggal() {
+        return tanggal;
     }
 
-    public void setKeterangan(String keterangan) {
-        this.keterangan = keterangan;
+    public void setTanggal(String tanggal) {
+        this.tanggal = tanggal;
     }
 }

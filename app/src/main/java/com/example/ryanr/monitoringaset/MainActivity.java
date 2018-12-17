@@ -14,7 +14,7 @@ import android.util.AttributeSet;
 import android.view.MenuItem;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class    MainActivity extends AppCompatActivity {
     CardView cvInventory,cvTransport,cvProperty;
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mToggle;

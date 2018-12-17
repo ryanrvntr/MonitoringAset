@@ -1,63 +1,49 @@
 package com.example.ryanr.monitoringaset.Model;
 
 public class InventoryModel {
-    String nama,merk,jumlah,satuan,ruang,keterangan,jenis,gambar,tanggal;
+    private String id_barang, nama_barang, harga, nama_jenis_barang, nama_kondisi, keterangan, gambar, nama_rayon, tanggal;
 
     public InventoryModel() {
     }
 
-
-    public InventoryModel(String nama, String merk, String jumlah, String satuan, String ruang, String keterangan, String jenis, String gambar, String tanggal) {
-
-        this.nama = nama;
-        this.merk = merk;
-        this.jumlah = jumlah;
-        this.satuan = satuan;
-        this.ruang = ruang;
-        this.keterangan = keterangan;
-        this.jenis = jenis;
-        this.gambar = gambar;
-        this.tanggal = tanggal;
+    public String getId_barang() {
+        return id_barang;
     }
 
-    public String getNama() {
-        return nama;
+    public void setId_barang(String id_barang) {
+        this.id_barang = id_barang;
     }
 
-    public void setNama(String nama) {
-        this.nama = nama;
+    public String getNama_barang() {
+        return nama_barang;
     }
 
-    public String getMerk() {
-        return merk;
+    public void setNama_barang(String nama_barang) {
+        this.nama_barang = nama_barang;
     }
 
-    public void setMerk(String merk) {
-        this.merk = merk;
+    public String getHarga() {
+        return harga;
     }
 
-    public String getJumlah() {
-        return jumlah;
+    public void setHarga(String harga) {
+        this.harga = harga;
     }
 
-    public void setJumlah(String jumlah) {
-        this.jumlah = jumlah;
+    public String getNama_jenis_barang() {
+        return nama_jenis_barang;
     }
 
-    public String getSatuan() {
-        return satuan;
+    public void setNama_jenis_barang(String nama_jenis_barang) {
+        this.nama_jenis_barang = nama_jenis_barang;
     }
 
-    public void setSatuan(String satuan) {
-        this.satuan = satuan;
+    public String getNama_kondisi() {
+        return nama_kondisi;
     }
 
-    public String getRuang() {
-        return ruang;
-    }
-
-    public void setRuang(String ruang) {
-        this.ruang = ruang;
+    public void setNama_kondisi(String nama_kondisi) {
+        this.nama_kondisi = nama_kondisi;
     }
 
     public String getKeterangan() {
@@ -68,14 +54,6 @@ public class InventoryModel {
         this.keterangan = keterangan;
     }
 
-    public String getJenis() {
-        return jenis;
-    }
-
-    public void setJenis(String jenis) {
-        this.jenis = jenis;
-    }
-
     public String getGambar() {
         return gambar;
     }
@@ -83,6 +61,15 @@ public class InventoryModel {
     public void setGambar(String gambar) {
         this.gambar = gambar;
     }
+
+    public String getNama_rayon() {
+        return nama_rayon;
+    }
+
+    public void setNama_rayon(String nama_rayon) {
+        this.nama_rayon = nama_rayon;
+    }
+
     public String getTanggal() {
         return tanggal;
     }
