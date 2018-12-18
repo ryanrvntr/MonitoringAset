@@ -25,7 +25,7 @@ import java.util.List;
 
 public class RecyclerPropertyActivity extends AppCompatActivity {
 
-    final String JSON_URL = "http://192.168.43.132/warehouse-inventory/rest_properti";
+    final String JSON_URL = "http://192.168.1.6/warehouse-inventory/rest_properti";
     JsonArrayRequest request;
     RequestQueue requestQueue;
     List<PropertyModel> propertyModels;

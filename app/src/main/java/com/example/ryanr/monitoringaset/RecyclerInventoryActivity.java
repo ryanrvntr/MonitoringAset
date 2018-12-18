@@ -24,7 +24,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RecyclerInventoryActivity extends AppCompatActivity {
-    final String JSON_URL = "http://192.168.43.132/warehouse-inventory/rest_barang";
+    final String JSON_URL = "http://192.168.1.6/warehouse-inventory/rest_barang";
     JsonArrayRequest request;
     RequestQueue requestQueue;
     List<InventoryModel> inventoryModels;
